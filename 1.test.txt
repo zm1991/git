@@ -34,3 +34,4 @@ Switched to branch 'master'
 	2.git stash
 
 push到远程库
+ git push origin master
