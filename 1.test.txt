@@ -33,3 +33,4 @@ Switched to branch 'master'
 	1.git checkout dev
 	2.git stash
 
+push到远程库
