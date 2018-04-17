@@ -1,0 +1,35 @@
+1.git init
+2.git add
+3.git commit -m 'add test'
+4.git diff
+5.git status
+6.git log
+7.git reset --hard HEAD^
+8.git checkout --1.test.txt //工作区的修改全部撤销
+9.git reset HEAD 1.test.txt //把暂存区的修改撤销掉，重新放回工作区
+10.git commit -m "delete test.txt"
+
+
+
+branch dev上添加内容
+Switched to a new branch 'dev'
+	1.git checkout -b dev
+	2.git add
+	3.git commit
+
+以下内容为master分支上添加修改
+Switched to branch 'master'
+	1.git merge dev
+	2.git branch -d dev
+
+
+以下内容为bug001分支上添加修改
+Switched to branch 'master'
+	1.git checkout -b bug001
+	2.git add
+	3.git commit
+
+切换回dev，利用stash，dev上修改的内容不能提交
+	1.git checkout dev
+	2.git stash
+
